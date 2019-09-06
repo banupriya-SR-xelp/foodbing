@@ -1,6 +1,9 @@
 # CIMS
 ![screenshot-localhost-3002-2019 09 06-16-32-22](https://user-images.githubusercontent.com/41668669/64423352-f0489700-d0c3-11e9-8c75-904e56b8f0fc.png)
 
+![screenshot-localhost-3000-2019 09 06-17-45-41](https://user-images.githubusercontent.com/41668669/64427174-30147c00-d0ce-11e9-872c-d097b4c348fc.png)
+
+
 FoodBing
 
 #Installation
