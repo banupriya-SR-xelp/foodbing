@@ -1,0 +1,78 @@
+.base {
+  width: 100%;
+  height: auto;
+}
+
+.headerHolder {
+  width: 100vw;
+  height: 50px;
+  background: #da1c5c;
+  box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.09);
+}
+.imageWithDescripton {
+  width: 47%;
+  height: 120px;
+  padding: 10px;
+}
+.banner {
+  width: 100%;
+  height: 500px;
+}
+.collectionHolder {
+  padding: 20px 50px;
+}
+.heading {
+  font-size: 24px;
+  padding-left: 8px;
+  color: #222222;
+  font-weight: bolder;
+}
+.subHeading {
+  padding-left: 8px;
+  font-size: 18px;
+  color: #837d7d;
+  font-weight: 200px;
+}
+.collection {
+  background: #ffffff;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.loginHolder {
+  display: inline-block;
+  width: 30%;
+  height: 100%;
+}
+.loginCollectionHolder {
+  margin: 20px 0px;
+}
+.holder {
+  display: inline-block;
+  width: 70%;
+  vertical-align: top;
+}
+.backgroundHolder {
+  background: url(./img/banner.png) no-repeat;
+  width: 100vw;
+  background-size: cover;
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.loginBackgroundHolder {
+  background: url(./img/banner.jpg) no-repeat;
+  width: 100%;
+  height: 100%;
+}
+.login {
+  padding: 20px;
+}
+.icon {
+  width: 200px;
+  height: 200px;
+  padding: 0px 50px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}

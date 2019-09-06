@@ -1,0 +1,36 @@
+.imageWithDescription {
+  width: 100%;
+  height: 100%;
+}
+.holder {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  cursor: pointer;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.08);
+}
+.image {
+  width: 45%;
+  height: 100%;
+  display: inline-block;
+}
+.description {
+  width: 55%;
+  display: inline-block;
+  vertical-align: top;
+}
+.heading {
+  padding: 10px;
+  font-size: 20px;
+  color: #222222;
+}
+.subText {
+  padding: 0px 10px 0px 10px;
+  font-size: 14px;
+  color: #212121;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}

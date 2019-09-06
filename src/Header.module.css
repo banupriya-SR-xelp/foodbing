@@ -1,0 +1,27 @@
+.headerBase {
+  width: 100%;
+  height: auto;
+}
+
+.headers {
+  width: 100%;
+  height: auto;
+}
+.leftHolder {
+  float: left;
+  padding: 20px 50px;
+  text-align: center;
+}
+.rightHolder {
+  float: right;
+  padding: 20px 50px;
+  text-align: center;
+}
+.text {
+  font-size: 16px;
+  padding: 0px 15px;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+}
