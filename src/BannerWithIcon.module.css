@@ -1,0 +1,23 @@
+.backgroundHolder {
+  background: url(./img/banner.png) no-repeat;
+  width: 100%;
+  background-size: cover;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.icon {
+  width: 200px;
+  height: 200px;
+  padding: 0px 50px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+@media screen and (max-width: 1025px) {
+  .icon {
+    width: 60px;
+    height: 60px;
+    padding: 0px 10px;
+  }
+}
