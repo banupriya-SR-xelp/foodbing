@@ -3,35 +3,30 @@ import styles from "./Home.module.css";
 import Header from "./Header";
 import ImageWithDesc from "./reusable_components/ImageWithDesc";
 import collection from "./jsonData/collection";
-import banner from "./img/banner.png";
 import Login from "./Login";
-import ProductImageAndLogo from "./ProductImageAndLogo";
+import BannerWithIcon from "./BannerWithIcon";
+import DesktopOnly from "./general/DesktopOnly.js";
+import MobileOnly from "./general/MobileOnly.js";
 
 export default class Home extends Component {
   render() {
-    console.log(collection);
     return (
       <div className={styles.base}>
         <div className={styles.headerHolder}>
           <Header />
         </div>
         <div className={styles.backgroundHolder}>
-          <div className={styles.icon}>
-            <ProductImageAndLogo text={"BreakFast"} />
-          </div>
-
-          <div className={styles.icon}>
-            <ProductImageAndLogo text={"Lunch"} />
-          </div>
-
-          <div className={styles.icon}>
-            <ProductImageAndLogo text={"Snacks"} />
-          </div>
-
-          <div className={styles.icon}>
-            <ProductImageAndLogo text={"Dinner"} />
-          </div>
+          <BannerWithIcon />
         </div>
+        {/* <MobileOnly>
+          <div className={styles.loginHolder}>
+            <div className={styles.loginBackgroundHolder}>
+              <div className={styles.login}>
+                <Login />
+              </div>
+            </div>
+          </div>
+        </MobileOnly> */}
 
         <div className={styles.collectionHolder}>
           <div className={styles.heading}>Collections</div>
@@ -56,13 +51,15 @@ export default class Home extends Component {
                   })}
               </div>
             </div>
-            <div className={styles.loginHolder}>
-              <div className={styles.loginBackgroundHolder}>
-                <div className={styles.login}>
-                  <Login />
+            <DesktopOnly>
+              <div className={styles.loginHolder}>
+                <div className={styles.loginBackgroundHolder}>
+                  <div className={styles.login}>
+                    <Login />
+                  </div>
                 </div>
               </div>
-            </div>
+            </DesktopOnly>
           </div>
         </div>
       </div>
