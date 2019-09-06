@@ -6,7 +6,6 @@ import collection from "./jsonData/collection";
 import Login from "./Login";
 import BannerWithIcon from "./BannerWithIcon";
 import DesktopOnly from "./general/DesktopOnly.js";
-import MobileOnly from "./general/MobileOnly.js";
 
 export default class Home extends Component {
   render() {
@@ -18,15 +17,6 @@ export default class Home extends Component {
         <div className={styles.backgroundHolder}>
           <BannerWithIcon />
         </div>
-        {/* <MobileOnly>
-          <div className={styles.loginHolder}>
-            <div className={styles.loginBackgroundHolder}>
-              <div className={styles.login}>
-                <Login />
-              </div>
-            </div>
-          </div>
-        </MobileOnly> */}
 
         <div className={styles.collectionHolder}>
           <div className={styles.heading}>Collections</div>
