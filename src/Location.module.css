@@ -1,0 +1,19 @@
+.location {
+  width: 100%;
+  height: 100%;
+}
+.manualPincodeHolder {
+  width: 100%;
+  height: 100%;
+}
+.inputHolder {
+  padding-top: 35px;
+  width: 250px;
+  height: 200px;
+}
+.input {
+  color: #212121;
+  font-size: 14px;
+  text-align: center;
+  padding: 10px;
+}

@@ -1,6 +1,8 @@
 .base {
   width: 100%;
-  height: auto;
+  min-height: 100vh;
+  height: 100%;
+  background: #ecececec;
 }
 
 .headerHolder {
@@ -10,34 +12,38 @@
   box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.09);
 }
 .imageWithDescripton {
-  width: 47%;
-  height: 120px;
+  width: 200px;
+  height: auto;
   padding: 10px;
+  position: relative;
 }
 .banner {
   width: 100%;
   height: 500px;
 }
 .collectionHolder {
-  padding: 20px 50px;
+  padding: 30px 50px;
 }
 .heading {
   font-size: 24px;
   padding-left: 8px;
   color: #222222;
   font-weight: bolder;
+  padding: 0px 110px;
 }
 .subHeading {
   padding-left: 8px;
+  padding: 0px 110px;
   font-size: 18px;
   color: #837d7d;
   font-weight: 200px;
 }
 .collection {
-  background: #ffffff;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
 }
 .loginHolder {
   display: inline-block;
@@ -46,10 +52,10 @@
 }
 .loginCollectionHolder {
   margin: 20px 0px;
+  padding: 0px 100px;
 }
 .holder {
-  display: inline-block;
-  width: 70%;
+  width: 100%;
   vertical-align: top;
 }
 
@@ -65,9 +71,47 @@
   height: 400px;
   width: 100vw;
 }
+.iconHolder {
+  width: 200px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  top: 80%;
+  margin-top: -50px;
+}
+.icon {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: #e3e3e3;
+  text-align: center;
+  position: absolute;
+  top: 20%;
+  right: 80px;
+}
+.image {
+  padding-top: 7px;
+  opacity: 0.6;
+}
+.moreText {
+  padding-top: 5px;
+  color: #212121;
+}
+.imageWithMoreDescripton {
+  width: 200px;
+  height: auto;
+  opacity: 0.5;
+  padding: 10px;
+}
 @media screen and (max-width: 1025px) {
   .loginHolder {
     width: 100%;
+  }
+  .loginCollectionHolder {
+    padding: 0px 8px;
   }
   .collectionHolder {
     padding: 20px 0px;
@@ -81,9 +125,11 @@
   }
   .heading {
     font-size: 18px;
+    padding: 0px 8px;
   }
   .subHeading {
     font-size: 12px;
+    padding: 0px 8px;
   }
   .backgroundHolder {
     height: 100px;
